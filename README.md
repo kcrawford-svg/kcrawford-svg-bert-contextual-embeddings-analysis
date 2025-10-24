@@ -1,5 +1,6 @@
 # BERT Contextual Embedding Analysis
 
+
 **Analyzing how modern language models represent meaning.**  
 This project explores how **BERT** encodes context-dependent word meaning through embeddings
 ---
