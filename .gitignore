@@ -1,0 +1,123 @@
+# ========================================
+# 🐍 PYTHON BUILD / BYTECODE FILES
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# ========================================
+# 🧠 VIRTUAL ENVIRONMENTS
+# ========================================
+venv/
+env/
+ENV/
+.venv/
+.ipynb_checkpoints/
+python_env/
+pip-wheel-metadata/
+
+# ========================================
+# ⚙️ IDE / EDITOR FILES
+# ========================================
+# JetBrains IDEs (PyCharm, IntelliJ)
+.idea/
+*.iml
+out/
+workspace.xml
+tasks.xml
+shelf/
+dataSources/
+dataSources.local.xml
+storage.xml
+gradle.xml
+libraries/
+cms/
+*.ipr
+*.iws
+
+# VSCode (if opened)
+.vscode/
+.history/
+.code-workspace
+
+# ========================================
+# 📁 PROJECT OUTPUT / EXPERIMENTS
+# ========================================
+out/
+results/
+reports/
+logs/
+*.log
+*.out
+*.err
+*.tmp
+nohup.out
+
+# Generated CSVs, histograms, reports
+*.png
+*.csv
+*.txt
+*.pdf
+
+# ========================================
+# 🤗 HUGGING FACE / TORCH / TRANSFORMERS
+# ========================================
+.cache/
+transformers_cache/
+~/.cache/
+~/.huggingface/
+hf_cache/
+torch_cache/
+pytorch_model.bin
+*.pt
+*.bin
+
+# ========================================
+# 📦 BUILD / DISTRIBUTION
+# ========================================
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ========================================
+# 💻 OS / PLATFORM FILES
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+*.swp
+*.swo
+
+# ========================================
+# 🧪 NOTEBOOKS / TEMP FILES
+# ========================================
+notebooks/.ipynb_checkpoints/
+tmp/
+scratch/
+*.ipynb
+*.ipynb_checkpoints
+
+# ========================================
+# 🔒 LOCAL CONFIGS (OPTIONAL)
+# ========================================
+.env
+.env.*
+credentials.json
+config.json
+token.json
+
+# ========================================
+# 🔍 PROJECT-SPECIFIC EXCLUSIONS
+# ========================================
+# Keep local output folders from BERT experiments
+out/
+data/temp/
+data/cache/
