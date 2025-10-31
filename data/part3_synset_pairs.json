@@ -1,0 +1,146 @@
+{
+  "car_automobile": {
+    "w1": "car",
+    "w2": "automobile",
+    "sents1": [
+      "Tony Stark’s car sped out of the Avengers compound.",
+      "Peter admired the car Tony designed for him.",
+      "The car was parked next to the Quinjet on the runway.",
+      "Natasha cleaned the car before the next mission.",
+      "The car engine roared as Stark activated the armor mode."
+    ],
+    "sents2": [
+      "The automobile was showcased at Stark Expo 2.0.",
+      "Bruce repaired the damaged automobile after the chase.",
+      "The automobile gleamed in the sunlight over Manhattan.",
+      "They drove the automobile to the S.H.I.E.L.D. base.",
+      "This automobile model uses an Arc Reactor engine."
+    ]
+  },
+  "kid_child": {
+    "w1": "kid",
+    "w2": "child",
+    "sents1": [
+      "The kid watched Captain America with wide eyes.",
+      "A brave kid wore an Iron Man mask at the parade.",
+      "Every kid at the Stark Expo wanted a selfie with Spider-Man.",
+      "The kid practiced heroic poses in front of the mirror.",
+      "A kid waved the Avengers flag from the crowd."
+    ],
+    "sents2": [
+      "The child held Thor’s hammer replica tightly.",
+      "Every child at the school admired the heroes.",
+      "The child was reading a comic about Black Panther.",
+      "A smiling child asked Natasha for an autograph.",
+      "Each child dreamed of joining the Avengers someday."
+    ]
+  },
+  "movie_film": {
+    "w1": "movie",
+    "w2": "film",
+    "sents1": [
+      "We watched the Avengers movie marathon last weekend.",
+      "That movie made everyone cheer when Iron Man returned.",
+      "He directed a movie about the Battle of New York.",
+      "The movie theater erupted when Thor appeared on screen.",
+      "They discussed the movie over shawarma afterward."
+    ],
+    "sents2": [
+      "The film received awards for its visual effects.",
+      "He studied film production inspired by Marvel Studios.",
+      "The film featured all six original Avengers.",
+      "Critics praised the film’s final battle sequence.",
+      "They screened the film at the Stark Foundation gala."
+    ]
+  },
+  "purchase_buy": {
+    "w1": "purchase",
+    "w2": "buy",
+    "sents1": [
+      "Pepper decided to purchase new suits for the team.",
+      "They made a large purchase of vibranium equipment.",
+      "The purchase included custom upgrades for the armor.",
+      "Stark regretted his expensive purchase after the prototype failed.",
+      "You can purchase Avengers merchandise at the Expo."
+    ],
+    "sents2": [
+      "Peter plans to buy new web-shooters from Stark Labs.",
+      "They buy nanotech components for every mission.",
+      "Thor will buy another round for everyone at the tavern.",
+      "We need to buy new shields for the recruits.",
+      "Don’t forget to buy snacks for the movie night."
+    ]
+  },
+  "start_begin": {
+    "w1": "start",
+    "w2": "begin",
+    "sents1": [
+      "We will start the mission at dawn.",
+      "The Quinjet refused to start after the EMP blast.",
+      "Training sessions start next Monday at Avengers HQ.",
+      "Let’s start working on the Stark Tower rebuild.",
+      "The press conference will start once Fury arrives."
+    ],
+    "sents2": [
+      "They will begin the operation once Banner stabilizes.",
+      "The Director asked the agents to begin the evacuation.",
+      "The ceremony will begin when the Avengers assemble.",
+      "You may begin testing the new armor.",
+      "He will begin analyzing the Tesseract readings soon."
+    ]
+  },
+  "assist_help": {
+    "w1": "assist",
+    "w2": "help",
+    "sents1": [
+      "FRIDAY will assist Tony during the system reboot.",
+      "Vision offered to assist with the containment field.",
+      "Volunteers assist the Avengers in cleaning up Sokovia.",
+      "Shuri will assist Peter with the nanotech interface.",
+      "Doctor Strange came to assist in the final battle."
+    ],
+    "sents2": [
+      "Spider-Man will help civilians trapped in the wreckage.",
+      "They help each other survive through every crisis.",
+      "The new protocol aims to help agents in the field.",
+      "Wanda asked Clint to help evacuate the area.",
+      "He tried to help but unleashed chaos instead."
+    ]
+  },
+  "error_mistake": {
+    "w1": "error",
+    "w2": "mistake",
+    "sents1": [
+      "FRIDAY detected an error in the Arc Reactor diagnostics.",
+      "Tony fixed an error in the AI targeting algorithm.",
+      "An error occurred while teleporting through the portal.",
+      "There was an error in the nanotech deployment sequence.",
+      "The report contained an error about the Infinity Stones."
+    ],
+    "sents2": [
+      "It was a mistake to underestimate Thanos.",
+      "She admitted her mistake and rejoined the Avengers.",
+      "The mistake cost them the first battle in Wakanda.",
+      "That was my mistake, not yours, said Stark.",
+      "He corrected the mistake before the timeline collapsed."
+    ]
+  },
+  "instructor_teacher": {
+    "w1": "instructor",
+    "w2": "teacher",
+    "sents1": [
+      "The combat instructor trained new S.H.I.E.L.D. recruits.",
+      "Natasha served as an instructor for stealth operations.",
+      "The instructor demonstrated how to use a repulsor safely.",
+      "Students asked the instructor how to pilot the Quinjet.",
+      "The instructor graded each hero’s combat simulation results."
+    ],
+    "sents2": [
+      "The teacher discussed the Avengers history in class.",
+      "A great teacher inspires heroes to rise above fear.",
+      "The teacher assigned an essay about Captain America.",
+      "Each teacher had a different theory about the Blip.",
+      "The teacher helped students understand what heroism means."
+    ]
+  }
+}
