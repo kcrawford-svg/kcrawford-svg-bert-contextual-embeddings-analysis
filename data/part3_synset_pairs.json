@@ -1,5 +1,6 @@
-{
-  "car_automobile": {
+[
+  {
+    "synset": "car.n.01",
     "w1": "car",
     "w2": "automobile",
     "sents1": [
@@ -17,7 +18,8 @@
       "This automobile model uses an Arc Reactor engine."
     ]
   },
-  "kid_child": {
+  {
+    "synset": "child.n.01",
     "w1": "kid",
     "w2": "child",
     "sents1": [
@@ -35,7 +37,8 @@
       "Each child dreamed of joining the Avengers someday."
     ]
   },
-  "movie_film": {
+  {
+    "synset": "movie.n.01",
     "w1": "movie",
     "w2": "film",
     "sents1": [
@@ -53,7 +56,8 @@
       "They screened the film at the Stark Foundation gala."
     ]
   },
-  "purchase_buy": {
+  {
+    "synset": "buy.v.01",
     "w1": "purchase",
     "w2": "buy",
     "sents1": [
@@ -71,7 +75,8 @@
       "Don’t forget to buy snacks for the movie night."
     ]
   },
-  "start_begin": {
+  {
+    "synset": "begin.v.01",
     "w1": "start",
     "w2": "begin",
     "sents1": [
@@ -89,7 +94,8 @@
       "He will begin analyzing the Tesseract readings soon."
     ]
   },
-  "assist_help": {
+  {
+    "synset": "help.v.01",
     "w1": "assist",
     "w2": "help",
     "sents1": [
@@ -107,7 +113,8 @@
       "He tried to help but unleashed chaos instead."
     ]
   },
-  "error_mistake": {
+  {
+    "synset": "error.n.01",
     "w1": "error",
     "w2": "mistake",
     "sents1": [
@@ -125,7 +132,8 @@
       "He corrected the mistake before the timeline collapsed."
     ]
   },
-  "instructor_teacher": {
+  {
+    "synset": "teacher.n.01",
     "w1": "instructor",
     "w2": "teacher",
     "sents1": [
@@ -143,4 +151,4 @@
       "The teacher helped students understand what heroism means."
     ]
   }
-}
+]

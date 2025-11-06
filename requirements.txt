@@ -1,5 +1,6 @@
-torch
-transformers
-numpy
-matplotlib
-pandas
+transformers>=4.45.0
+torch>=2.2.0
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+nltk>=3.9
