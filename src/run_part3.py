@@ -109,3 +109,11 @@ df_stats = df_stats.round(4)
 csv_path = os.path.join(OUT_DIR, "stats_table.csv")
 df_stats.to_csv(csv_path, index=False)
 
+csv_path = os.path.join(OUT_DIR, "stats_table.csv")
+df_stats.to_csv(csv_path, index=False)
+
+print("\nDONE ✅")
+print(f"Stats saved to: {csv_path}")
+print(df_stats)
+
+

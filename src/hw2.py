@@ -5,6 +5,7 @@ from transformers import BertTokenizerFast, BertModel
 import numpy as np
 
 
+# Used so BERT can have some compute acceleration on my laptop GPU
 def pick_device() -> torch.device:
     if torch.cuda.is_available():
         return torch.device("cuda")  # NVIDIA CUDA enabled GPU
@@ -65,12 +66,15 @@ def genBERTVector(model,
         if not sub_word_vecs:
             outputs.append([])
             continue
+        # Average all sub-word embedding to get a single vector
         mean_vector = torch.stack(sub_word_vecs).mean(dim=0)
-        vector_np = mean_vector.detach().cpu().numpy()
-        outputs.append(vector_np[:take_dims].tolist())
+        vector_np = mean_vector.detach().cpu().numpy()  # Switching to CPU for numpy computation
+        outputs.append(vector_np[:take_dims].tolist())  # Keep only first 50 dimension for embedding size consistency
+
     return outputs
 
 
+# Utility for initializing the BERT model
 def load_BERT(model_name: str = "bert-base-uncased"):
     tokenizer = BertTokenizerFast.from_pretrained(model_name)
     model = BertModel.from_pretrained(model_name)
